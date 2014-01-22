@@ -7,7 +7,7 @@ Else
 { $sysadmin_accounts = $sql_sysadmin_accounts }
 $sql_instance_id = "SQL01"
 $sql_instance_name = "SQL12"
-$sa_pw = convertTo-Securestring “TenB33rs!” –AsPlainText –Force
+$sa_pw = convertTo-Securestring "TenB33rs!" -AsPlainText -Force
 
 # Create setup directory
 $files_path = "$Env:TEMP\SQL2012Install" 
